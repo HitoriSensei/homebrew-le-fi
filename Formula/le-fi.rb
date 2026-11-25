@@ -1,8 +1,8 @@
 class LeFi < Formula
   desc "Send or receive a file across NATs using a Cloudflare Quick Tunnel"
   homepage "https://git.petedoes.it/Hitori/le-fi"
-  url "https://git.petedoes.it/Hitori/le-fi/archive/v0.10.1.tar.gz"
-  sha256 "daa928fd03abbbf9a547b2a95f8d31dd16a555767552c9a1078969c6decfcea3" # see README.md in this tap for how to compute it
+  url "https://git.petedoes.it/Hitori/le-fi/archive/v0.11.0.tar.gz"
+  sha256 "7333be44f513250dca080142dc4c944d0055fa2d8fbd13d68bd0a48a8117760a" # see README.md in this tap for how to compute it
   license "Apache-2.0"
 
   depends_on "go" => :build
